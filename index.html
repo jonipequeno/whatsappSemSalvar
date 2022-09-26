@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de link Wpp</title>
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="shortcut icon" href="src/img/WhatsApp-icone.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <section>
+        <img src="src/img/WhatsApp-icone.png" alt="Logo Whatsapp">
+
+        <form name="form_main">
+            <input type="text" name="number" id="number" placeholder="5561999999999"><br>
+            <input type="text" name="message" id="message" placeholder="Digite aqui sua mensagem"><br>
+
+
+
+            <textarea id="end_url" cols="30" rows="2"></textarea>
+
+            <button type="button" onclick="gerarLink()"> Gerar </button><br>
+
+
+        </form>
+    </section>
+    <script>
+        function gerarLink() {
+            let number = document.form_main.number.value;
+            let message = document.form_main.message.value;
+            let url = "https://wa.me/";
+            let end_url = `${url}${number}?text=${message}`;
+            document.getElementById('end_url').innerText = end_url;
+
+
+        }
+
+
+
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>
