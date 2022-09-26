@@ -62,7 +62,9 @@ textarea {
   flex-direction: column;
 }
 .linkWpp:hover {
-  background-image: url(../img/botao-whatsapp.png);
+  background-color: rgb(221, 241, 221);
+  color: rgb(7, 168, 101);
+  box-shadow: 1px 5px;
 }
 
 @media only screen and (max-width: 600px) {
