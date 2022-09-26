@@ -41,25 +41,34 @@ input {
   height: 40px;
 }
 
+input:hover {
+  background-color: rgb(221, 241, 221);
+  color: rgb(7, 168, 101);
+  box-shadow: 1px 5px;
+
+}
+
+.menssagem{
+  margin-top: 5px;
+}
+
 button {
   margin-top: 5px;
-  width: 250px;
+  width: 252px;
   height: 45px;
   border-radius: 5px;
 }
-textarea {
-  border-radius: 5px;
-}
+
 
 .linkWpp {
   display: flex;
   color: black;
   text-decoration: none;
-  border-radius: 15px;
+  border-radius: 5px;
   text-align: center;
   background-color: bisque;
-  width: 250px;
-  height: 40px;
+  width: 252px;
+  height: 45px;
   justify-content: space-around;
   align-content: flex-end;
   flex-direction: column;
