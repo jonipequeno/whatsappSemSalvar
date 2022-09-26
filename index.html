@@ -17,33 +17,16 @@
 
         <form name="form_main">
             <input type="text" name="number" id="number" placeholder="5561999999999"><br>
-            <input type="text" name="message" id="message" placeholder="Digite aqui sua mensagem"><br>
+            <input type="text" name="message" id="message" placeholder="Digite aqui sua mensagem (Opcional)"><br>
 
-
-
-            <textarea id="end_url" cols="30" rows="2"></textarea>
+            <a class="linkWpp" href="" id="end_url">Digite o numero
+                acima</a>
 
             <button type="button" onclick="gerarLink()"> Gerar </button><br>
 
-
         </form>
     </section>
-    <script>
-        function gerarLink() {
-            let number = document.form_main.number.value;
-            let message = document.form_main.message.value;
-            let url = "https://wa.me/";
-            let end_url = `${url}${number}?text=${message}`;
-            document.getElementById('end_url').innerText = end_url;
-
-
-        }
-
-
-
-
-
-    </script>
+    <script src="src/js/script.js"></script>
 
 
 
