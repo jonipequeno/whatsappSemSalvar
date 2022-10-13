@@ -10,13 +10,13 @@ body {
 
 section {
   display: grid;
-    flex-direction: column;
-    padding: 15px;
-    justify-content: space-evenly;
-    justify-items: center;
-    height: 100vh;
-    align-items: start;
-    align-content: space-evenly;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: space-evenly;
+  justify-items: center;
+  height: 100vh;
+  align-items: start;
+  align-content: space-evenly;
 }
 
 img {
@@ -25,8 +25,8 @@ img {
   justify-content: space-between;
   align-items: center;
   padding: 5px;
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 
 form {
@@ -40,15 +40,21 @@ input {
   border-radius: 5px;
   height: 40px;
 }
+.pais {
+  height: 40px;
+  border-radius: 5px;
+}
+.numero {
+  width: 198px;
+}
 
 input:hover {
   background-color: rgb(221, 241, 221);
   color: rgb(7, 168, 101);
   box-shadow: 1px 5px;
-
 }
 
-.menssagem{
+.menssagem {
   margin-top: 5px;
 }
 
@@ -58,7 +64,6 @@ button {
   height: 45px;
   border-radius: 5px;
 }
-
 
 .linkWpp {
   display: flex;
@@ -96,6 +101,5 @@ button {
     body {
       height: 100vh;
     }
-    
   }
 }

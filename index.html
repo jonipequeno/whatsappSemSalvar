@@ -17,8 +17,26 @@
 
         <h1>Envie mensagens sem salvar números</h1>
         <form name="form_main">
-            <input type="text" name="number" id="number" placeholder="5561999999999">
-            <input class="menssagem" type="text" name="message" id="message" placeholder="Digite aqui sua mensagem (Opcional)"><br>
+            <div>
+                <select name="pais" class="pais">
+                    <option value="+55">BR</option>
+                    <option value="+1">EUA</option>
+                    <option value="+33">FR</option>
+                    <option value="+351">PT</option>
+                    <option value="+852">HK</option>
+                    <option value="+81">JP</option>
+                    <!--<option value="+"></option>
+                    <option value="+"></option>
+                    <option value="+"></option>
+                    <option value="+"></option>
+                    <option value="+"></option>
+                    <option value="+"></option>
+                    -->
+                </select>
+                <input class="numero" type="text" name="number" id="number" placeholder="61999999999">
+            </div>
+            <input class="menssagem" type="text" name="message" id="message"
+                placeholder="Digite aqui sua mensagem (Opcional)"><br>
 
             <a class="linkWpp" href="" id="end_url">Digite o número
                 acima</a>
